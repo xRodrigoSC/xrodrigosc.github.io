@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     line-height: 1.6em;
     padding: var(--padding-container);
+    text-align: justify;
 }
 .container2 p{
     margin-bottom: 1.6em
@@ -47,9 +48,11 @@ body {
 }
 .menu-horizontal > li > a{
     display: block;
+    font-size: 1rem;
     padding: 15px 20px;
     color: white;
     text-decoration: none; 
+    align-content: center;
 }
 .menu-horizontal > li:hover{
     background-color: red;
@@ -312,7 +315,7 @@ nav > a:hover{
 }
 
 .hero__title {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .hero__paragraph {
@@ -429,10 +432,14 @@ nav > a:hover{
 
 .subtitle2 {
     color: var(--color-title);
-    font-size: 1rem;
+    font-size: 2rem;
     margin-bottom: 25px;
 }
-
+.subtitle3 {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
 
 .about__paragraph {
     line-height: 1.7;
@@ -481,11 +488,13 @@ nav > a:hover{
 
 .knowledge__picture{
     max-width: 500px;
+    margin-left: 70px;
 }
 
 .knowledge__paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .knowledge__img{
@@ -576,6 +585,8 @@ nav > a:hover{
     grid-template-columns: 50px 1fr 50px;
     gap: 1em;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .testimony__body{
@@ -609,6 +620,10 @@ nav > a:hover{
     max-width: 700px;
 }
 
+.testimony__texts p{
+   text-align: justify;
+}
+
 .testimony__course{
     background-color: royalblue;
     color: #fff;
@@ -632,6 +647,8 @@ nav > a:hover{
     gap: 2em;
     padding-top: 50px;
     padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .questions__padding{
@@ -653,7 +670,7 @@ nav > a:hover{
 .questions__title{
     text-align: left;
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     padding: 30px 0 30px;
     cursor: pointer;
     color: var(--color-title);
@@ -679,6 +696,7 @@ nav > a:hover{
 
 .questions__show{
     text-align: left;
+    font-size: 17px;
     height: 0;
     transition: height .3s;
 }
@@ -726,6 +744,8 @@ nav > a:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer__title{
   font-size: 1.8em;
@@ -740,10 +760,21 @@ nav > a:hover{
   text-align: right;
   color: #EEAD33;
   display: block;
+  margin-left: 15px;
+margin-right: 15px;
 }
+
+.footer__txt{
+text-align: justify;
+margin-left: 15px;
+margin-right: 15px;
+}
+
 .footer__txt .fa-twitter{
   color: #3bbef5;
   margin-right: 5px;
+margin-left: 15px;
+margin-right: 15px;
 }
 .footer__link{
   color: #EEAD33;
